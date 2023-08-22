@@ -14,8 +14,8 @@ function App() {
         ]
     )
     const removeTask = (id: number) =>{
-       let fiteredTasks = tasks.filter((task)=>task.id !== id)
-            SetTasks(fiteredTasks)
+       let filteredTasks = tasks.filter((task)=>task.id !== id)
+            SetTasks(filteredTasks)
     }
 
 
