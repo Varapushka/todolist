@@ -1,0 +1,1 @@
+export type FilterValueType = 'All' | 'Active' | 'Completed' | 'Delete'
